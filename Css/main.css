@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.home {
+  height: 100vh;
+  background-color: #553377;
+}
+.Mybutton {
+  background-color: #553377;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: medium;
+  cursor: pointer;
+}
+.footerButton div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #553377;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.footerButton div i {
+  font-size: 20px;
+  color: #553377;
+}
+#author {
+  opacity: 0;
+  transition: all 0.5s;
+}
